@@ -1,2 +1,1 @@
-# kakao-clone-v2
- Kakao-Clone-v2
+카카오톡을 웹으로 구현해보았습니다.
