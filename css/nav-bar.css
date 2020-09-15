@@ -1,0 +1,38 @@
+.nav {
+  position: fixed; /*sticky 하게 만들기 위해서. element를 기존 다른것들에서 떼어낸다.*/
+  width: 100%; /*width를 꼭 설정해줘야 한다.*/
+  background-color: #fcfcfc;
+  padding: 20px, 50px;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav i {
+  font-size: 20px;
+}
+
+.nav .nav__list-link {
+  position: relative; /*부모 포지션이 렐러티브가 되어야 한다.*/
+}
+
+.nav .nav__badge {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  font-size: 10px;
+  color: white;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /*height의 반으로 설정하면 원이 된다.*/
+}
